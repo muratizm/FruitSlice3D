@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6100108965248347886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6100108965248347880}
+  - component: {fileID: 6100108965248347887}
+  m_Layer: 0
+  m_Name: GoalCreater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6100108965248347880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6100108965248347886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 229.86757, y: 319.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6100108965248347887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6100108965248347886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc1fecc0f4cf6664a99d67cbd9c23512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodSlots:
+  - {fileID: 6368631471328571656, guid: 061889e52f73d024fbdf88fd7e882764, type: 3}
+  - {fileID: 6368631471328571656, guid: cdb437a9de9249b4d896f7f7d9dcb1b5, type: 3}
+  - {fileID: 6368631471328571656, guid: 807b6622adc9c6245b8024f6864d3342, type: 3}
+  - {fileID: 6368631471328571656, guid: f81e612c71cf8a84fbcd612bc55b48b7, type: 3}
+  - {fileID: 6368631471328571656, guid: 1ed2b5c97646dd64bb6391c107f88660, type: 3}
